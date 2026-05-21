@@ -2,6 +2,8 @@ baseURL = 'https://christyjohn.github.io/'
 languageCode = 'en-us'
 title = 'christyjohn'
 theme = 'PaperMod'
+relativeURLs = false
+canonifyURLs = true
 
 [pagination]
 pagerSize = 10
@@ -19,7 +21,7 @@ tag = "tags"
 
 [[menu.main]]
 identifier = "ask-ai-section"
-name = "Ask the AI Bot"
+name = "AI Conversations"
 url = "/posts/ask-ai/"
 weight = 1
 
@@ -49,16 +51,10 @@ url = "/posts/ds-algo/"
 weight = 5
 
 [[menu.main]]
-identifier = "ai-ml-data-science-section"
-name = "AI / ML / Data Science"
-url = "/posts/ai-ml-data-science/"
-weight = 6
-
-[[menu.main]]
 identifier = "misc-section"
 name = "Misc"
 url = "/posts/misc/"
-weight = 7
+weight = 99
 
 [[menu.main]]
 identifier = "about-page"
