@@ -1,6 +1,6 @@
 baseURL = 'https://christyjohn.github.io/'
 languageCode = 'en-us'
-title = 'crz.me'
+title = 'christyjohn'
 theme = 'PaperMod'
 
 [pagination]
