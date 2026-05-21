@@ -16,3 +16,46 @@ ShowPostNavLinks = true
 [taxonomies]
 category = "categories"
 tag = "tags"
+
+[[menu.main]]
+identifier = "ask-ai"
+name = "Ask the AI Bot"
+url = "/posts/ask-ai/"
+weight = 1
+
+[[menu.main]]
+identifier = "java"
+name = "Java"
+url = "/posts/java/"
+weight = 2
+
+[[menu.main]]
+identifier = "spring"
+name = "Spring"
+url = "/posts/spring/"
+weight = 3
+
+[[menu.main]]
+identifier = "system-desgin"
+name = "System Desgin"
+url = "/posts/system-design/"
+weight = 4
+
+
+[[menu.main]]
+identifier = "ds-algo"
+name = "DS / Algorithms"
+url = "/posts/ds-algo/"
+weight = 5
+
+[[menu.main]]
+identifier = "ai-ml-data-science"
+name = "AI / ML / Data Science"
+url = "/posts/ai-ml-data-science/"
+weight = 6
+
+[[menu.main]]
+identifier = "misc"
+name = "Misc"
+url = "/posts/misc/"
+weight = 7
