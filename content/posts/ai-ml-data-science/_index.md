@@ -1,3 +1,3 @@
 ---
-title: "Ask the AI Bot"
+title: "Artificial Intelligence, Machine Leaning, and Data Science"
 ---
