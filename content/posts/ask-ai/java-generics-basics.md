@@ -6,6 +6,8 @@ categories: ["Java", "Generics", "Ask the AI Bot"]
 tags: ["java", "generics", "AI-Bot", "AI"]
 ---
 
+*Note: Most of the code snippets and examples referenced in these discussions are taken from Core Java Volume I—Fundamentals 12th edition by Cay S. Horstmann. I am mentioning this primarily to provide readers with context and a reference point for the examples being discussed.*
+
 ### 1. Why do constructors in Java generic classes not declare the generic type parameter explicitly? ###
 
 For example, given a generic class:
