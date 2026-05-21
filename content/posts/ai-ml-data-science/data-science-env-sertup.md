@@ -3,7 +3,7 @@ title: "Data Science Environment setup"
 date: 2026-04-09
 draft: false
 categories: ["AI / ML / Data Science"]
-tags: ["envirom=nemt", "setup"]
+tags: ["environemt", "setup"]
 ---
 
 This is how you will be setting up an environment (Windows machine for now), so that we can work with Python, Jupyter Notebooks, NumPy, pandas, matplotlib, scipy, scikit-learn, statsmodels etc.

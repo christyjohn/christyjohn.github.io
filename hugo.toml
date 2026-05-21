@@ -55,7 +55,13 @@ url = "/posts/ai-ml-data-science/"
 weight = 6
 
 [[menu.main]]
-identifier = "misc"
+identifier = "misc-section"
 name = "Misc"
 url = "/posts/misc/"
 weight = 7
+
+[[menu.main]]
+identifier = "about-page"
+name = "About"
+url = "/about/"
+weight = 100
