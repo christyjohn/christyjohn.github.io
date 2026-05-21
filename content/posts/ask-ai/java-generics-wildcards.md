@@ -1,6 +1,6 @@
 ---
 title: "Java Generics (Wildcards & Bounds)"
-date: 2026-04-21
+date: 2026-04-19
 draft: false
 categories: ["Java", "Generics", "Ask the AI Bot"]
 tags: ["java", "generics", "AI-Bot", "AI"]

@@ -1,6 +1,6 @@
 ---
 title: "Ask the AI Bot Series"
-date: 2026-04-19
+date: 2026-04-17
 draft: false
 categories: ["Ask the AI Bot"]
 tags: ["AI-Bot", "AI", "conversation"]

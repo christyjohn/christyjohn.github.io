@@ -1,6 +1,6 @@
 ---
 title: "Java Generics (Basics)"
-date: 2026-04-20
+date: 2026-04-18
 draft: false
 categories: ["Java", "Generics", "Ask the AI Bot"]
 tags: ["java", "generics", "AI-Bot", "AI"]
