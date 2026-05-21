@@ -18,38 +18,38 @@ category = "categories"
 tag = "tags"
 
 [[menu.main]]
-identifier = "ask-ai"
+identifier = "ask-ai-section"
 name = "Ask the AI Bot"
 url = "/posts/ask-ai/"
 weight = 1
 
 [[menu.main]]
-identifier = "java"
+identifier = "java-section"
 name = "Java"
 url = "/posts/java/"
 weight = 2
 
 [[menu.main]]
-identifier = "spring"
+identifier = "spring-section"
 name = "Spring"
 url = "/posts/spring/"
 weight = 3
 
 [[menu.main]]
-identifier = "system-desgin"
+identifier = "system-desgin-section"
 name = "System Desgin"
 url = "/posts/system-design/"
 weight = 4
 
 
 [[menu.main]]
-identifier = "ds-algo"
+identifier = "ds-algo-section"
 name = "DS / Algorithms"
 url = "/posts/ds-algo/"
 weight = 5
 
 [[menu.main]]
-identifier = "ai-ml-data-science"
+identifier = "ai-ml-data-science-section"
 name = "AI / ML / Data Science"
 url = "/posts/ai-ml-data-science/"
 weight = 6

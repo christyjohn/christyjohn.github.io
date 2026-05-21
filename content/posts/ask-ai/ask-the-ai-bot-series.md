@@ -1,9 +1,9 @@
 ---
 title: "Ask the AI Bot Series"
-date: 2026-04-20
+date: 2026-04-19
 draft: false
 categories: ["Ask the AI Bot"]
-tags: ["ai-bot", "ai", "conversation"]
+tags: ["AI-Bot", "AI", "conversation"]
 ---
 
 I’m starting a new series titled *“Ask the AI Bot.”*
