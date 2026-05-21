@@ -1,0 +1,18 @@
+baseURL = 'https://christyjohn.github.io/'
+languageCode = 'en-us'
+title = 'crz.me'
+theme = 'PaperMod'
+
+[pagination]
+pagerSize = 10
+
+[params]
+defaultTheme = "dark"
+ShowCodeCopyButtons = true
+ShowReadingTime = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+
+[taxonomies]
+category = "categories"
+tag = "tags"

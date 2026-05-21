@@ -1,0 +1,26 @@
+# Generated Output
+/public/
+/resources/_gen/
+
+# Hugo-generated Files
+hugo_stats.json
+hugo.log
+.hugo_build.lock
+
+# Operating System & IDE junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-*
+
+# Node.js (if you use npm/yarn for your themes)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Executables (if you compile Hugo from source in your workspace)
+hugo
+hugo.exe
+hugo.darwin
+hugo.linux
