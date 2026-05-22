@@ -16,7 +16,6 @@ concurrency:
 
 params:
   env: production
-  comments: true
 
 jobs:
   build:

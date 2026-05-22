@@ -14,6 +14,7 @@ ShowCodeCopyButtons = true
 ShowReadingTime = true
 ShowBreadCrumbs = true
 ShowPostNavLinks = true
+comments = true
 
 [taxonomies]
 category = "categories"

@@ -58,8 +58,15 @@ In ```hugo.yaml``` add
 
 ```yaml
 params:
-  comments: true
+  comments: true 
  ```
+
+ if it is ```hugo.toml``` add
+
+ ```toml
+ [params]
+ comments = true
+```
 
 4. Add to each post frontmatter
 
