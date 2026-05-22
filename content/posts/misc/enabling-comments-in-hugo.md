@@ -77,4 +77,4 @@ comments: true
 
 5. Now restart you server and comments are enabled in your posts.
 
-```hugo server --disableFastRender``` - the flag enables hugo server to refresh the caches.
+```hugo server --disableFastRender``` - the flag enables hugo server to refresh the caches. Sometimes hot reload misses layout changes.
