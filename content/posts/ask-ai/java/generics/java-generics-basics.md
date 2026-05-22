@@ -28,7 +28,7 @@ public Pair<T>()
 ```
 even though the class itself is declared with the generic type parameter ```<T>```? 
 
-#### Bot : ####
+#### Answer : ####
 
 It is easy to see why this looks a bit inconsistent at first glance. If the class name needs the ```<T>```, why doesn't the constructor?
 
@@ -37,6 +37,7 @@ The short answer is that **in Java, a constructor's name must exactly match the 
 Here is a breakdown of why Java was designed this way and how to think about it.
 
 **a. The Syntax Rule: Constructors Name the Class, Not the Type**
+
 When you define a constructor, you are not writing out the full type of the object you are creating; you are just writing the name of the class.
 
 ```java
@@ -53,6 +54,7 @@ public class Pair<T> {
 The ```<T>``` belongs to the **type declaration** of the class, telling Java that Pair is a generic class. When you write the constructor, you are already inside the scope of ```Pair<T>```, so the compiler already knows what ```T``` is for that specific instance.
 
 **b. Constructors Can Have Their Own Separate Generics**
+
 If Java allowed ```public Pair<T>()```, it would create a massive syntax conflict. Java actually allows constructors to have their own independent generic types, completely separate from the class's type.
 
 Take a look at this example:
@@ -93,7 +95,7 @@ public <E> void pair(E element)
 
 So what exactly differentiates a generic constructor from a generic method in Java?
 
-#### Google Gemini : ####
+#### Answer : ####
 That is a really sharp observation, and you caught the exact nuance that trips a lot of people up.
 
 It isn't just the capitalization that makes it a constructor — it is **the complete absence of a return type**.
@@ -156,7 +158,7 @@ class ArrayAlg<T> {
 
  Can the method then be written as: ``` public static T getMiddle(T... a)``` instead of ```public static <T> T getMiddle(T... a)```? If not, why can’t a static method use the class-level type parameter of a generic class?
 
-#### Google Gemini : ####
+#### Answer : ####
 
 That is an excellent question, and the answer is **no, you cannot do that**. If you try to write ```public static T getMiddle(T... a)``` inside a generic class, the compiler will throw an error.
 
@@ -198,10 +200,9 @@ Notice that I used ```<E>``` for the method instead of ```<T>```. While you can 
 
 When you call this fixed static method, Java will look at the arguments you pass in at that exact moment to infer what E is, completely ignoring whatever type the overall class might have.
 
-### Me : ###
-Okay. I understand. But what if the method was not static?
+### Okay. I understand. But what if the method was not static? ###
 
-### Google Gemini : ###
+#### Answer : ####
 If the method is **not static** (an instance method), then **yes, absolutely!** You can use ```T``` directly as the return type or parameter type without redeclaring it.
 
 In fact, that is the whole point of making a class generic in the first place.

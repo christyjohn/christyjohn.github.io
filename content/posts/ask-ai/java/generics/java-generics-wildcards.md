@@ -26,7 +26,7 @@ public static <T> Pair<T> minmax(T[] birthdays)
 
 How does PECS relate to these kinds of generic type bounds?
 
-#### Bot : ####
+#### Answer : ####
 
 **PECS** stands for **Producer Extends, Consumer Super**. It is a mental shorthand coined by Java expert Joshua Bloch to help developers remember when to use ```extends``` wildcards and when to use ```super``` wildcards in Java Generics.
 
@@ -45,7 +45,7 @@ By default, Java Generics are **invariant**. This means that even though a Strin
 
 If we didn't have ```extends``` and ```super```, our generic methods would be incredibly rigid and reject perfectly valid code.
 
-**The Bounded Type Parameter:** ```<T Comparable extends>```
+**The Bounded Type Parameter:** ```<T extends Comparable>```
 
 In your specific example, you aren't using a wildcard (```?```), but you are using a **bounded type parameter**:
 
@@ -71,6 +71,7 @@ Right now, it says ```T extends Comparable```. But what if you have a ```LocalDa
 To make it truly professional and flexible, Java developers rewrite it using PECS logic like this:
 
 ```java
+// TODO - revisit after more understanding
 public static <T extends Comparable<? super T>> Pair<T> minmax(T[] birthdays)
 ```
 

@@ -11,7 +11,7 @@ tags: ["java", "generics", "AI-Bot", "AI"]
 
 ### 1.Explain how Java Type Erasure works under the hood and its limitations with arrays or primitives. ###
 
-#### Bot : ####
+#### Answer : ####
 
 To understand **Type Erasure**, you have to look back to 2004 when Java 5 was released.
 
