@@ -14,9 +14,6 @@ concurrency:
   group: pages
   cancel-in-progress: true
 
-params:
-  env: production
-
 jobs:
   build:
     runs-on: ubuntu-latest
