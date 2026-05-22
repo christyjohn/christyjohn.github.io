@@ -2,6 +2,7 @@
 title: "Create Blog with Hugo and Github Pages"
 date: 2026-04-02
 draft: false
+comments: true
 categories: ["Github", "Blogging"]
 tags: ["github-pages", "hugo", "setup"]
 ---

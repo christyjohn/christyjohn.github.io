@@ -2,6 +2,7 @@
 title: "Data Science Environment setup"
 date: 2026-04-09
 draft: false
+comments: true
 categories: ["AI / ML / Data Science"]
 tags: ["environemt", "setup"]
 ---

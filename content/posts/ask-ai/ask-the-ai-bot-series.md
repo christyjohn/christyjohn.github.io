@@ -2,6 +2,7 @@
 title: "AI Conversations"
 date: 2026-04-17
 draft: false
+comments: true
 categories: ["Ask the AI Bot"]
 tags: ["AI-Bot", "AI", "conversation"]
 ---

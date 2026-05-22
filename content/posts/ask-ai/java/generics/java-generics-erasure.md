@@ -2,6 +2,7 @@
 title: "Java Generics (Erasure)"
 date: 2026-04-20
 draft: false
+comments: true
 categories: ["Java", "Generics", "Ask the AI Bot"]
 tags: ["java", "generics", "AI-Bot", "AI"]
 ---
