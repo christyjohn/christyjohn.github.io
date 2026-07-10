@@ -26,35 +26,41 @@ name = "AI Conversations"
 url = "/posts/ask-ai/"
 weight = 1
 
-[[menu.main]]
-identifier = "java-section"
-name = "Java"
-url = "/posts/java/"
-weight = 2
+#[[menu.main]]
+#identifier = "java-section"
+#name = "Java"
+#url = "/posts/java/"
+#weight = 2
+
+#[[menu.main]]
+#identifier = "spring-section"
+#name = "Spring"
+#url = "/posts/spring/"
+#weight = 3
 
 [[menu.main]]
-identifier = "spring-section"
-name = "Spring"
-url = "/posts/spring/"
-weight = 3
-
-[[menu.main]]
-identifier = "system-desgin-section"
+identifier = "system-design-section"
 name = "System Design"
 url = "/posts/system-design/"
 weight = 4
 
 [[menu.main]]
+identifier = "interview-section"
+name = "Interview"
+url = "/posts/interview/"
+weight = 5
+
+[[menu.main]]
 identifier = "ds-algo-section"
 name = "DS / Algorithms"
 url = "/posts/ds-algo/"
-weight = 5
+weight = 6
 
 [[menu.main]]
 identifier = "app-dev-section"
 name = "Dev"
 url = "/posts/app-dev/"
-weight = 6
+weight = 7
 
 [[menu.main]]
 identifier = "misc-section"

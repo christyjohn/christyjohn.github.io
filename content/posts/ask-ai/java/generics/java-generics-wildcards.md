@@ -71,7 +71,7 @@ Right now, it says ```T extends Comparable```. But what if you have a ```LocalDa
 To make it truly professional and flexible, Java developers rewrite it using PECS logic like this:
 
 ```java
-// TODO - revisit after more understanding
+// TODO - revisit after more learning
 public static <T extends Comparable<? super T>> Pair<T> minmax(T[] birthdays)
 ```
 

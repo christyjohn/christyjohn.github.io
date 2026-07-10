@@ -1,6 +1,6 @@
 ---
 title: "Data Science Environment setup"
-date: 2026-04-09
+date: 2026-01-09
 draft: false
 comments: true
 categories: ["AI / ML / Data Science"]
