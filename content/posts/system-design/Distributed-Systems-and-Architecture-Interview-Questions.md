@@ -1,13 +1,11 @@
 ---
-title: "Intrview Questions - Distributed Systems & Architecture"
+title: "Interview Questions - Distributed Systems & Architecture"
 date: 2026-07-10
 draft: false
 comments: true
 categories: ["Interview", "Distributed Systems", "System Design"]
 tags: ["interview", "questions", "distributed-systems", "system-design", "architecture"]
 ---
-
-# INTERVIEW QUESTIONS - Distributed Systems & Architecture
 
 # 1. How would you design a highly available microservices system for millions of users?
 

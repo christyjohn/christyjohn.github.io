@@ -40,16 +40,21 @@ weight = 3
 
 [[menu.main]]
 identifier = "system-desgin-section"
-name = "System Desgin"
+name = "System Design"
 url = "/posts/system-design/"
 weight = 4
-
 
 [[menu.main]]
 identifier = "ds-algo-section"
 name = "DS / Algorithms"
 url = "/posts/ds-algo/"
 weight = 5
+
+[[menu.main]]
+identifier = "app-dev-section"
+name = "Dev"
+url = "/posts/app-dev/"
+weight = 6
 
 [[menu.main]]
 identifier = "misc-section"
