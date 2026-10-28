@@ -30,7 +30,7 @@ conda create --prefix ./env pandas numpy matplotlib scikit-learn
 4.  Activate the environment.
 
 ```bash
-$ conda activate C:\\workspace\\sample_project\\env
+$ conda activate C:\workspace\sample_project\env
 ```
 
 To deactivate, use
