@@ -15,7 +15,7 @@ We need a Python environment to work with, and the general idea is to use a Cond
 2.  Create a working directory at your desired location.
 
 ```bash
-mkdir workspace/sample\_project cd workspace/sample\_project
+mkdir workspace/sample_project cd workspace/sample_project
 ```
 
 3.  Create a custom environment in the project folder.
@@ -29,7 +29,7 @@ conda create --prefix ./env pandas numpy matplotlib scikit-learn
 4.  Activate the environment.
 
 ```bash
-$ conda activate C:\\workspace\\sample\_project\\env
+$ conda activate C:\\workspace\\sample_project\\env
 ```
 
 To deactivate, use
@@ -47,11 +47,11 @@ conda install jupyter jupyter notebook
 6.  \[Exporting the environment\] (https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment)
 
 ```bash
-conda env export --prefix C:\\workspace\\sample\_project\\env > environment.yml
+conda env export --prefix C:\\workspace\\sample_project\\env > environment.yml
 ```
 
 7.  \[Create an environment from the file\] (https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
 
 ```bash
-conda env create --file environment.yml --name env\_from\_file
+conda env create --file environment.yml --name env_from_file
 ```
