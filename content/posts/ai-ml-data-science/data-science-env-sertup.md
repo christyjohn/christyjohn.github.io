@@ -15,7 +15,8 @@ We need a Python environment to work with, and the general idea is to use a Cond
 2.  Create a working directory at your desired location.
 
 ```bash
-mkdir workspace/sample_project cd workspace/sample_project
+mkdir workspace/sample_project 
+cd workspace/sample_project
 ```
 
 3.  Create a custom environment in the project folder.
