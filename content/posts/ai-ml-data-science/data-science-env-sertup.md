@@ -42,13 +42,14 @@ $ conda deactivate
 5.  Install and use Jupyter Notebook (after activating the environment from the project folder)
 
 ```bash
-conda install jupyter jupyter notebook
+conda install jupyter 
+jupyter notebook
 ```
 
 6.  \[Exporting the environment\] (https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment)
 
 ```bash
-conda env export --prefix C:\\workspace\\sample_project\\env > environment.yml
+conda env export --prefix C:\workspace\sample_project\env > environment.yml
 ```
 
 7.  \[Create an environment from the file\] (https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
